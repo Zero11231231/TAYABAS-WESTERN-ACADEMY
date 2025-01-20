@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Permit Tuition System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #container {
+      width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+    #nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    #nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    #nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    #nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    #content {
+      padding: 20px;
+    }
+    #footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>E-Permit Tuition System</h1>
+    </div>
+    <div id="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Student Login</a></li>
+        <li><a href="#">Parent Login</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <!-- Student Login Form -->
+      <form action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+      </form>
+
+      <!-- Parent Login Form -->
+      <form action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+      </form>
+
+      <!-- Payment Form -->
+      <form action="#" method="post">
+        <label for="student_name">Student Name:</label>
+        <input type="text" id="student_name" name="student_name"><br><br>
+        <label for="tuition_amount">Tuition Amount:</label>
+        <input type="number" id="tuition_amount" name="tuition_amount"><br><br>
+        <label for="payment_method">Payment Method:</label>
+        <select id="payment_method" name="payment_method">
+          <option value="cash">Cash</option>
+          <option value="check">Check</option>
+          <option value="online">Online Payment</option>
+        </select><br><br>
+        <input type="submit" value="Make Payment">
+      </form>
+
+      <!-- Payment Receipt -->
+      <h2>Payment Receipt</h2>
+      <p>Thank you for your payment!</p>
+      <p>Payment Method: [insert payment method]</p>
+      <p>Tuition Amount: [insert tuition amount]</p>
+
+    </div>
+    <div id="footer">
+      Copyright &copy; 2024 Tayabas Western Academy
+    </div>
+  </div>
+
+</body>
+</html>
